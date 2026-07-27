@@ -49,6 +49,7 @@ packages = list(
   "ggtext" = "0.1.2", # https://github.com/cal-icor/csumb-user-image/issues/25
   "ggthemes" = "5.1.0", # https://github.com/cal-icor/csumb-user-image/issues/1
   "gridExtra" = "2.3", # https://github.com/cal-icor/csumb-user-image/issues/25
+  "gtsummary" = "2.5.0", # https://github.com/cal-icor/base-user-image/issues/112
   "janitor" = "2.2.1", # https://github.com/cal-icor/csumb-user-image/issues/1
   "knitr" = "1.50", # https://github.com/cal-icor/cal-icor-hubs/issues/163
   "leaflet" = "2.2.3", # https://github.com/cal-icor/csumb-user-image/issues/25
