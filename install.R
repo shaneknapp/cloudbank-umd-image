@@ -44,10 +44,12 @@ packages = list(
   "ggformula" = "0.12.0", # https://github.com/cal-icor/cal-icor-hubs/issues/163
   "gghighlight" = "0.5.0", # https://github.com/cal-icor/csumb-user-image/issues/25
   "ggmosaic" = "0.3.3", # https://github.com/cal-icor/csumb-user-image/issues/1
+  "ggpubr" = "0.6.2", # https://github.com/cal-icor/base-user-image/issues/112
   "ggrepel" = "0.9.6", # https://github.com/cal-icor/csumb-user-image/issues/1
   "ggridges" = "0.5.7", # https://github.com/cal-icor/csumb-user-image/issues/25
   "ggtext" = "0.1.2", # https://github.com/cal-icor/csumb-user-image/issues/25
   "ggthemes" = "5.1.0", # https://github.com/cal-icor/csumb-user-image/issues/1
+  "gtsummary" = "2.5.0", # https://github.com/cal-icor/base-user-image/issues/112
   "gridExtra" = "2.3", # https://github.com/cal-icor/csumb-user-image/issues/25
   "janitor" = "2.2.1", # https://github.com/cal-icor/csumb-user-image/issues/1
   "knitr" = "1.50", # https://github.com/cal-icor/cal-icor-hubs/issues/163
@@ -60,15 +62,18 @@ packages = list(
   "minioclient" = "0.0.6",
   "mosaic" = "1.9.1", # https://github.com/cal-icor/cal-icor-hubs/issues/163
   "naniar" = "1.1.0", # https://github.com/cal-icor/csumb-user-image/issues/1
+  "nycflights13" = "1.0.2", # https://github.com/cal-icor/base-user-image/issues/112
   "openintro" = "2.5.0", # https://github.com/cal-icor/csumb-user-image/issues/1
   "palmerpenguins" = "0.1.1", # https://github.com/cal-icor/csumb-user-image/issues/25
   "plotly" = "4.11.0", # https://github.com/cal-icor/csumb-user-image/issues/25
   "pwr" = "1.3-0", # https://github.com/cal-icor/cal-icor-hubs/issues/163
+  "quarto" = "1.5.1",
   "rmarkdown" = "2.29", # https://github.com/cal-icor/cal-icor-hubs/issues/163
   "rstac" = "1.0.1",
   "scales" = "1.4.0", # https://github.com/cal-icor/csumb-user-image/issues/25
   "see" = "0.12.0", # https://github.com/cal-icor/csumb-user-image/issues/1
   "sf" = "1.0-19",
+  "sjPlot" = "2.9.0", # https://github.com/cal-icor/base-user-image/issues/112
   "socviz" = "1.2", # https://github.com/cal-icor/csumb-user-image/issues/25
   "stars" = "0.6-7",
   "sweep" = "0.2.6", # https://github.com/cal-icor/csumb-user-image/issues/25
@@ -86,3 +91,4 @@ install_packages_with_versions(packages)
 
 # install GitHub packages
 remotes::install_github("hrbrmstr/waffle") # https://github.com/cal-icor/cal-icor-hubs/issues/294
+remotes::install_github("speegled/fosdata") # https://github.com/cal-icor/base-user-image/issues/117
